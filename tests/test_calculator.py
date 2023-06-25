@@ -1,8 +1,11 @@
-from app.calculator import add, div, mul, sub
+import sys
+sys.path.append('./app')
+
+from calculator import add, div, mul, sub
 
 
 def test_add():
-    assert add(1, 1) == 2
+    assert add(1, 1) ==2
 
 
 def test_sub():

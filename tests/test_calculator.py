@@ -1,7 +1,4 @@
-import sys
-sys.path.append('./app')
-
-from calculator import add, div, mul, sub
+from app.calculator import add, div, mul, sub
 
 
 def test_add():
